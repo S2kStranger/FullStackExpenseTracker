@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+
+    <h1 class="heading">Track Your Expenses</h1>
+    <form  id='my-form'  class="my-form">
+        
+        <div class="inputs">
+            <label for="name">Name:</label><br>
+            <select name="" id="category" class="category">
+                <option value="Movie">Movie</option>
+                <option value="Rent">Rent</option>
+                <option value="Fuel">Fuel</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Hotel">Hotel</option>
+                <option value="Food">Food</option>
+                <option value="Gaming">Gaming</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <label for="">Expense Amount:</label><br>
+            <input type="text" id="expenseamt">
+        </div>
+        <div class="inputs">
+            <label for="">Description:</label><br>
+            <input type="text" id="description">
+        </div>
+        <input type="hidden" id="userid" name="userid">
+        <div class="buttons">
+            <button type="submit" class="btn" id="submit">Submit</button>
+            <button type="button" class="btn" id="update">Update</button>
+        </div>
+        
+    </form>
+    <div>
+        <ul id="expenseList"></ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="/main.js"></script>
+    
+</body>
+</html>

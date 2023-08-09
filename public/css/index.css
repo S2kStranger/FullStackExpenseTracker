@@ -1,0 +1,43 @@
+body {
+    background-color: chocolate;
+}
+
+.my-form {
+    background-color:rgb(186, 22, 22);
+    margin-right: 77%;
+    padding: 1rem 0.5rem;
+}
+.heading {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.inputs {
+    font-size: 18px;
+    padding: 0.5rem;
+
+}
+
+.category {
+    width: 170px;
+    height: 23px;
+}
+
+.buttons {
+    padding: 0.5rem;
+}
+
+
+.btn{
+    font-size: medium;
+}
+
+.tempbtn{
+    margin: 2px;
+    font-size: medium;
+}
+
+
+.users {
+    padding: 0.5rem;
+    
+}
